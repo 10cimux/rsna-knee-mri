@@ -1,0 +1,20 @@
+{
+  "heads": {
+    "original_path": "outputs/exp08/exp08_heads.py",
+    "sha256": "429dd5235d56da86eddfa10db4fd292edd592423f845b4f549fb9a52625a7ef4",
+    "transformation": "none except line-ending serialization"
+  },
+  "inference_contracts": {
+    "original_path": "outputs/exp12_dual_gpu/exp12_dual_gpu.py",
+    "sha256": "98e065ad595239b362d54e40e22909051ede511701c15af5be552b0038889b91",
+    "functions": [
+      "check_parity",
+      "conservative_projection",
+      "global_rank",
+      "make_cases",
+      "merge_shards",
+      "split_cases"
+    ],
+    "transformation": "AST-extracted unchanged pure functions; local ValueError guard replaces runtime import"
+  }
+}

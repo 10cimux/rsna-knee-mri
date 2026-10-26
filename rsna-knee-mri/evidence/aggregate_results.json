@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-10-26",
+  "public_scores_evidence": "Participant-reported accepted Kaggle submissions; no private rank verified",
+  "exp04": {
+    "oof_macro_auc": 0.6329894097435338,
+    "public_score": 0.732
+  },
+  "exp05": {
+    "oof_macro_auc": 0.6271998388270238
+  },
+  "exp06": {
+    "oof_macro_auc": 0.6483034724292447,
+    "paired_ci95": [
+      -0.0166556357742094,
+      0.04621018138639926
+    ],
+    "conclusion": "inconclusive"
+  },
+  "exp08": {
+    "mean_oof": 0.5929395063841107,
+    "attention_oof": 0.6002009234951996,
+    "status": "closed"
+  },
+  "exp09": {
+    "oof_macro_auc": 0.6264457546283276,
+    "status": "rejected"
+  },
+  "exp10": {
+    "public_score": 0.924,
+    "model_authorship": "Dread Development / Johnathan Wagner",
+    "private_score_verified": false
+  },
+  "exp12": {
+    "submitted": false,
+    "pilot_unique_studies": 12,
+    "pilot_cases": 48,
+    "visible_studies": 3,
+    "visible_raw_float32_equal_exp10": true,
+    "projected_hidden_hours": 4.237162444766102,
+    "assumed_hidden_studies": 1300,
+    "hidden_completion_verified": false,
+    "visible_elapsed_seconds": 163.19472883999993
+  }
+}
