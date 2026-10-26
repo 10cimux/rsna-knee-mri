@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-26",
+  "python": "3.12.14",
+  "core_tests": 11,
+  "vision_tests": 18,
+  "notebook_code_cells_executed": 2,
+  "tests": [
+    {
+      "suite": "tests",
+      "passed": true,
+      "output": "test_fold_perfect_global_imperfect (test_core.EvaluationTests.test_fold_perfect_global_imperfect) ... ok\ntest_invalid_inputs (test_core.EvaluationTests.test_invalid_inputs) ... ok\ntest_single_class_undefined (test_core.EvaluationTests.test_single_class_undefined) ... ok\ntest_ties_count_half (test_core.EvaluationTests.test_ties_count_half) ... ok\ntest_unknown_excluded (test_core.EvaluationTests.test_unknown_excluded) ... ok\ntest_missing_duplicate_and_identity_rejected (test_core.InferenceTests.test_missing_duplicate_and_identity_rejected) ... ok\ntest_nonfinite_and_duplicate_ids_rejected (test_core.InferenceTests.test_nonfinite_and_duplicate_ids_rejected) ... ok\ntest_original_tie_policy_preserved (test_core.InferenceTests.test_original_tie_policy_preserved) ... ok\ntest_ranking_must_be_global (test_core.InferenceTests.test_ranking_must_be_global) ... ok\ntest_reverse_completion_preserves_original_order (test_core.InferenceTests.test_reverse_completion_preserves_original_order) ... ok\ntest_runtime_uses_historical_worst (test_core.InferenceTests.test_runtime_uses_historical_worst) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.518s\n\nOK\n"
+    },
+    {
+      "suite": "tests_vision",
+      "passed": true,
+      "output": "test_all_missing_rejected_including_one_empty_study (test_heads.HeadTests.test_all_missing_rejected_including_one_empty_study) ... ok\ntest_attention_is_finding_specific (test_heads.HeadTests.test_attention_is_finding_specific) ... ok\ntest_attention_uniform_reduces_to_mean (test_heads.HeadTests.test_attention_uniform_reduces_to_mean) ... ok\ntest_bad_valid_input_shape_dtype_and_values_rejected (test_heads.HeadTests.test_bad_valid_input_shape_dtype_and_values_rejected) ... ok\ntest_common_initialization_and_cpu_rng_restore (test_heads.HeadTests.test_common_initialization_and_cpu_rng_restore) ... ok\ntest_declared_shapes_and_parameter_counts (test_heads.HeadTests.test_declared_shapes_and_parameter_counts) ... ok\ntest_ensemble_averages_probabilities_without_mutating_state (test_heads.HeadTests.test_ensemble_averages_probabilities_without_mutating_state) ... ok\ntest_evaluation_repeat_and_state_are_deterministic (test_heads.HeadTests.test_evaluation_repeat_and_state_are_deterministic) ... ok\ntest_invalid_targets_and_empty_known_batch_rejected (test_heads.HeadTests.test_invalid_targets_and_empty_known_batch_rejected) ... ok\ntest_invalid_token_nan_inf_and_ids_cannot_change_output (test_heads.HeadTests.test_invalid_token_nan_inf_and_ids_cannot_change_output) ... ok\ntest_label_order_and_configuration (test_heads.HeadTests.test_label_order_and_configuration) ... ok\ntest_masked_features_have_zero_gradient (test_heads.HeadTests.test_masked_features_have_zero_gradient) ... ok\ntest_mean_equals_direct_valid_token_average (test_heads.HeadTests.test_mean_equals_direct_valid_token_average) ... ok\ntest_padding_and_batch_invariance (test_heads.HeadTests.test_padding_and_batch_invariance) ... ok\ntest_single_valid_token_same_for_both_heads (test_heads.HeadTests.test_single_valid_token_same_for_both_heads) ... ok\ntest_state_dict_roundtrip (test_heads.HeadTests.test_state_dict_roundtrip) ... ok\ntest_token_permutation_invariance (test_heads.HeadTests.test_token_permutation_invariance) ... ok\ntest_unknown_labels_indexed_before_bce_and_zero_gradient (test_heads.HeadTests.test_unknown_labels_indexed_before_bce_and_zero_gradient) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.577s\n\nOK\n"
+    }
+  ],
+  "github_actions_executed": false
+}
