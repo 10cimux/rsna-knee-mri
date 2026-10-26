@@ -16,10 +16,21 @@ The central challenge was reliable evaluation with only **58 fully annotated stu
 | EXP10: attributed reproduction of public Raptor | **0.924 public** | Accepted submission reported by the participant; pretrained model belongs to its original author |
 | EXP12: two-GPU execution of the EXP10 recipe | Exact parity in the executed pilot and visible test | **Not submitted before the deadline; no official EXP12 score** |
 
-The public scores are not private leaderboard scores or evidence of clinical performance.
-Raptor is by **Dread Development / Johnathan Wagner**. The improvement from 0.732 to
-0.924 involved adopting that public model, not training an original model of equivalent performance.
-The project was developed with AI-assisted coding; experimental decisions and evidence are documented.
+Competition outcome
+
+- **Best public leaderboard score:** 0.960.
+- **Private leaderboard score:** 0.912.
+- **Private leaderboard position:** 3,986th.
+- **Kaggle profile:** [Decimus Tavares](https://www.kaggle.com/decimustavares).
+- **Competition leaderboard:** [RSNA Knee Abnormality Detection](https://www.kaggle.com/competitions/rsna-knee-abnormality-detection/leaderboard).
+
+The 0.924 public score was achieved by reproducing the public Raptor model
+by Dread Development / Johnathan Wagner. This project does not claim
+authorship of that pretrained model. EXP12 was not submitted before the
+deadline. Competition scores do not establish clinical performance.
+
+The project was developed with vibecoding; experimental decisions
+and evidence are documented.
 
 ## What this project demonstrates
 
