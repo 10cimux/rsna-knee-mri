@@ -1,5 +1,11 @@
 # Knee MRI: validation, computer vision and reliable inference
 
+![RSNA Knee MRI — Illustrative AI-assisted MRI analysis](assets/knee-mri-banner.png)
+
+*Conceptual illustration of AI-assisted knee MRI analysis.
+The images and highlighted abnormalities are illustrative,
+not actual model predictions or clinical findings.*
+
 **A Data Science / Computer Vision case study by [Décimus Tavares](https://github.com/10cimux).**
 
 Predicting 12 abnormalities from multi-planar knee MRI in the
